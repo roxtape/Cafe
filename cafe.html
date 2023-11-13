@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("coffeehouse.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block w3-black">Ana Menu</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">Haqqimizda</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#where" class="w3-button w3-block w3-black">Mekanimiz</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-tag">Acilis 09:00 baglanis 00:00</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white" style="font-size:90px">Azerbaycan<br>Yemekxana</span>
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+      <span class="w3-text-white"></span>
+    </div>
+  </header>
+
+
+  <div class="w3-sand w3-grayscale w3-large">
+
+
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Azerbaycan Yemekxanasi haqqinda Melumat</span>
+        </h5>
+        <p>Azərbaycan mətbəxi — təkcə xörəklər, onların hazırlanma texnologiyasının üsulları deyil, həm də maddi
+          mədəniyyətin əsas hissəsidir.[1] Azərbaycan mətbəxi — mətbəx mədəniyyətini, onun tarixini, fəlsəfəsini, süfrə
+          psixologiyasını, adətləri, fiziologiyanı, gigiyenanı, kimyanı, avadanlığı, etikanı, estetikanı, poeziyanı və
+          mətbəxin sair aspektlərini, eləcə də Azərbaycan xalqının tarixən ətraf mühitlə tam harmoniyada yaşadığı
+          ərazilərdə yaratdığı praktik vərdişləri özündə ahəngdar şəkildə birləşdirir.[1] Azərbaycan xalqının dühası ilə
+          onun tarixən yaşadığı indiki Azərbaycan Respublikası, Güney Azərbaycanı, İrəvan xanlığı, Zəngəzur və Göyçə
+          mahallarının torpaqlarında, Gürcüstanda azərbaycanlıların qədimdən bəri yaşadıqları Borçalı bölgəsində,
+          Dağıstan ərazisində və onun ətrafında yaradılmışdır.[2] Dünyanın ən qədim və zəngin mətbəxlərindən biri olan
+          Azərbaycan mətbəxi maddi mədəniyyətin mühüm tərkib hissəsi kimi mətbəx mədəniyyəti tarixini, onun fəlsəfəsi,
+          süfrə psixologiyası, adət-ənənələri, mətbəxin fiziologiyası, gigiyenası, avadanlığı, etikası, estetikası və s.
+          cəhətləri, eləcə də təcrübi amilləri özündə birləşdirir.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p><i>"Azərbaycan mətbəxi — təkcə xörəklər, onların hazırlanma texnologiyasının üsulları deyil, həm də maddi
+              mədəniyyətin əsas hissəsidir.[1] Azərbaycan mətbəxi — mətbəx mədəniyyətini</p>
+        </div>
+        <img src="coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <p><strong>Acilis Saat:</strong> Saat 09:00 Baglanis 00:00</p>
+        <p><strong>Address:</strong> Aspa Eduaction Senter</p>
+      </div>
+    </div>
+
+
+    <div class="w3-container" id="menu">
+      <div class="w3-content" style="max-width:700px">
+
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Menyumuz</span></h5>
+
+        <div class="w3-row w3-center w3-card w3-padding">
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+            <div class="w3-col s6 tablink">Yemeklerimiz</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+            <div class="w3-col s6 tablink">Icecek menyumuz</div>
+          </a>
+        </div>
+
+        <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Xaş</h5>
+          <p class="w3-text-grey">Xaş cox dadlı yemeklerimizden biridir 1 porsun qiymetı ise 7.00</p><br>
+
+          <h5>Sah plov</h5>
+          <p class="w3-text-grey">Bu yemeyin adi Plovdur cox dadlidir 1 porsun qiymeti 7.00</p><br>
+
+          <h5>Yarpaq dolmasi</h5>
+          <p class="w3-text-grey">Yarpaq dolmasi Azerbaycanin en enenevi yemeklerinden biridr qiymeti ise .5.00</p><br>
+
+          <h5>Qayğanaq</h5>
+          <p class="w3-text-grey">
+            Pişmiş yumurta, qovrulmuş qırmızı bibər və sarımsaq, yaşıl soğan ilə 7.50</p><br>
+
+          <h5>Panckek</h5>
+          <p class="w3-text-grey">Şərbət, yağ və çoxlu giləmeyvə ilə 8.50</p>
+        </div>
+
+        <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Coffee</h5>
+          <p class="w3-text-grey">Adi qəhvə 2.50</p><br>
+
+          <h5>Sokoladli</h5>
+          <p class="w3-text-grey">Südlü şokoladlı espresso 4.50</p><br>
+
+          <h5>Viskili</h5>
+          <p class="w3-text-grey">Viski və qəhvə 5.00</p><br>
+
+          <h5>Isti cay</h5>
+          <p class="w3-text-grey">
+            İsti çay istisna olmaqla, isti çay 3.00</p><br>
+
+          <h5>Soda</h5>
+          <p class="w3-text-grey">Kola, Sprite, Fanta və s. 2.50</p>
+        </div>
+        <img src="coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+      </div>
+    </div>
+
+
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Bizim Unvanimiz</span></h5>
+        <img src="map.jpg" class="w3-image" style="width:100%">
+        <p><span class="w3-tag"></span> Zehmet olmasa Kafemize gelende rezerv etmek lazmdir Yer dolu ve ya bos ola
+          biler.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Adiniz" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Ne qeder Adam geleceksiniz"
+              required name="People"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
+              name="date" value="2020-11-16T20:00"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mesaj \ Xüsusi tələblər" required
+              name="Message"></p>
+          <p><button class="w3-button w3-black" type="submit">Gonderin</button></p>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Designed By Ramiz Refizade &copy; 2023</a></p>
+  </footer>
+
+  <script>
+
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+  </script>
+
+</body>
+
+</html>
