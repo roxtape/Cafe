@@ -1,190 +1,174 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>Yemekxana</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<title>Cafe</title>
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
 
-<head>
-  <title>Yemekxana</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-  <style>
-    body,
-    html {
-      height: 100%;
-      font-family: "Inconsolata", sans-serif;
-    }
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("coffeehouse.jpg");
+  min-height: 75%;
+}
 
-    .bgimg {
-      background-position: center;
-      background-size: cover;
-      background-image: url("coffeehouse.jpg");
-      min-height: 75%;
-    }
-
-    .menu {
-      display: none;
-    }
-  </style>
+.menu {
+  display: none;
+}
+</style>
 </head>
-
 <body>
 
-  <div class="w3-top">
-    <div class="w3-row w3-padding w3-black">
-      <div class="w3-col s3">
-        <a href="#" class="w3-button w3-block w3-black">Ana Menu</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#about" class="w3-button w3-block w3-black">Haqqimizda</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#where" class="w3-button w3-block w3-black">Mekanimiz</a>
-      </div>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">Ana Sehife</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">Haqqimizda</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">Menyu</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">Mekan</a>
     </div>
   </div>
+</div>
 
-  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-      <span class="w3-tag">Acilis 09:00 baglanış 00:00</span>
-    </div>
-    <div class="w3-display-middle w3-center">
-      <span class="w3-text-white" style="font-size:90px">Azerbaycan<br>Yemekxana</span>
-    </div>
-    <div class="w3-display-bottomright w3-center w3-padding-large">
-      <span class="w3-text-white"></span>
-    </div>
-  </header>
-
-
-  <div class="w3-sand w3-grayscale w3-large">
-
-
-    <div class="w3-container" id="about">
-      <div class="w3-content" style="max-width:700px">
-        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Azerbaycan Yemekxanası haqqinda Melumat</span>
-        </h5>
-        <p>Azərbaycan mətbəxi — təkcə xörəklər, onların hazırlanma texnologiyasının üsulları deyil, həm də maddi
-          mədəniyyətin əsas hissəsidir.[1] Azərbaycan mətbəxi — mətbəx mədəniyyətini, onun tarixini, fəlsəfəsini, süfrə
-          psixologiyasını, adətləri, fiziologiyanı, gigiyenanı, kimyanı, avadanlığı, etikanı, estetikanı, poeziyanı və
-          mətbəxin sair aspektlərini, eləcə də Azərbaycan xalqının tarixən ətraf mühitlə tam harmoniyada yaşadığı
-          ərazilərdə yaratdığı praktik vərdişləri özündə ahəngdar şəkildə birləşdirir.[1] Azərbaycan xalqının dühası ilə
-          onun tarixən yaşadığı indiki Azərbaycan Respublikası, Güney Azərbaycanı, İrəvan xanlığı, Zəngəzur və Göyçə
-          mahallarının torpaqlarında, Gürcüstanda azərbaycanlıların qədimdən bəri yaşadıqları Borçalı bölgəsində,
-          Dağıstan ərazisində və onun ətrafında yaradılmışdır.[2] Dünyanın ən qədim və zəngin mətbəxlərindən biri olan
-          Azərbaycan mətbəxi maddi mədəniyyətin mühüm tərkib hissəsi kimi mətbəx mədəniyyəti tarixini, onun fəlsəfəsi,
-          süfrə psixologiyası, adət-ənənələri, mətbəxin fiziologiyası, gigiyenası, avadanlığı, etikası, estetikası və s.
-          cəhətləri, eləcə də təcrübi amilləri özündə birləşdirir.</p>
-        <div class="w3-panel w3-leftbar w3-light-grey">
-          <p><i>"Azərbaycan mətbəxi — təkcə xörəklər, onların hazırlanma texnologiyasının üsulları deyil, həm də maddi
-              mədəniyyətin əsas hissəsidir.[1] Azərbaycan mətbəxi — mətbəx mədəniyyətini</p>
-        </div>
-        <img src="coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-        <p><strong>Acilis Saat:</strong> Saat 09:00 Baglanış 00:00</p>
-        <p><strong>Address:</strong> Aspa Eduaction Center</p>
-      </div>
-    </div>
-
-
-    <div class="w3-container" id="menu">
-      <div class="w3-content" style="max-width:700px">
-     
-        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MENYU</span></h5>
-      
-        <div class="w3-row w3-center w3-card w3-padding">
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-            <div class="w3-col s6 tablink">Yemək</div>
-          </a>
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-            <div class="w3-col s6 tablink">İçki</div>
-          </a>
-        </div>
-    
-        <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-          <h5>Çörək Səbəti</h5>
-          <p class="w3-text-grey">Təzə bişmiş meyvə çörəkləri və muffinlərin çeşidi 5.50 azn</p><br>
-        
-          <h5>Meyvə ilə Bal Badam Granola</h5>
-          <p class="w3-text-grey">Təbii dənli bal ilə qızardılmış yulaf, kişmiş, badam və xurma 7.00 azn</p><br>
-        
-          <h5>Belçika vaflisi</h5>
-          <p class="w3-text-grey">Səməni unlu vanil ətirli xəmir 7.50 azn</p><br>
-        
-          <h5>Qayğanaq</h5>
-          <p class="w3-text-grey">Çırpılmış yumurta, qovrulmuş qırmızı bibər və sarımsaq, yaşıl soğan ilə 7,50 azn</p><br>
-        
-          <h5>Blueberry Pancakes</h5>
-          <p class="w3-text-grey">Şərbət, yağ və çoxlu giləmeyvə ilə 8.50 azn</p>
-        </div>
-    
-        <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-          <h5>Kofe</h5>
-          <p class="w3-text-grey">Adi qəhvə 2.50 azn</p><br>
-        
-          <h5>Şokolad</h5>
-          <p class="w3-text-grey">Südlü şokoladlı espresso 4.50 azn</p><br>
-        
-          <h5>Korretto</h5>
-          <p class="w3-text-grey">Viski və qəhvə 5.00 azn</p><br>
-        
-          <h5>Buzlu çay</h5>
-          <p class="w3-text-grey">İsti çay istisna olmaqla, isti 3.00 azn</p><br>
-        
-          <h5>Soda</h5>
-          <p class="w3-text-grey">Kola, Sprite, Fanta və s. 2.50 azn</p>
-        </div>  
-        <img src="coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
-      </div>
-    </div>
-
-
-    <div class="w3-container" id="where" style="padding-bottom:32px;">
-      <div class="w3-content" style="max-width:700px">
-        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Bizim Unvanimiz</span></h5>
-        <img src="map.jpg" class="w3-image" style="width:100%">
-        <p><span class="w3-tag"></span> Zehmet olmasa Kafemize gelende rezerv etmek lazmdir Yer dolu ve ya bos ola
-          biler.</p>
-        <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Adiniz" required name="Name"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Ne qeder Adam geleceksiniz"
-              required name="People"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
-              name="date" value="2020-11-16T20:00"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mesaj \ Xüsusi tələblər" required
-              name="Message"></p>
-          <p><button class="w3-button w3-black" type="submit">Gönderin</button></p>
-        </form>
-      </div>
-    </div>
-
-
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Səhər 6-dan axşam 5-ə qədər açıqdır</span>
   </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Azerbaycan <br>Yemek Xanasi</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Aspa Eduaction Center</span>
+  </div>
+</header>
 
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
 
-  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-    <p>Designed By Ramiz Refizade &copy; 2023</a></p>
-  </footer>
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Kafe Haqqi da</span></h5>
+    <p>The Cafe blabla ildə təsis edilib. Minimum hesab edirəm ki, heç bir nəticə əldə edə bilməyəcəksiniz.</p>
+    <p>Tam espresso və dəmləmə bar menyumuza əlavə olaraq, biz sifarişlə təzə hazırlanmış səhər yeməyi və nahar sendviçlərini, eləcə də müxtəlif yan və salatlar və digər yaxşı yeməkləri təqdim edirik.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Təbiətdən gələn məhsullardan lazımınca istifadə edin - amma heç vaxt tez və ya gec deyil." Təzə yeni şirniyyatdır.</i></p>
+      <p>Şef, Qəhvəçi və Qurucu: Ramiz</p>
+    </div>
+    <img src="coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Açılış saatları:</strong>Açılış: 06;00 baglanis 00:00</p>
+    <p><strong>Adres:</strong>Aspa Eduaction Center</p>
+  </div>
+</div>
 
-  <script>
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MENYU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Yemək</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">İçki</div>
+      </a>
+    </div>
 
-    function openMenu(evt, menuName) {
-      var i, x, tablinks;
-      x = document.getElementsByClassName("menu");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-      }
-      document.getElementById(menuName).style.display = "block";
-      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-    }
-    document.getElementById("myLink").click();
-  </script>
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Çörək Səbəti</h5>
+      <p class="w3-text-grey">Təzə bişmiş meyvə çörəkləri və muffinlərin çeşidi 5.50 azn</p><br>
+    
+      <h5>Meyvə ilə Bal Badam Granola</h5>
+      <p class="w3-text-grey">Təbii dənli bal ilə qızardılmış yulaf, kişmiş, badam və xurma 7.00 azn</p><br>
+    
+      <h5>Belçika vaflisi</h5>
+      <p class="w3-text-grey">Səməni unlu vanil ətirli xəmir 7.50 azn</p><br>
+    
+      <h5>Qayğanaq</h5>
+      <p class="w3-text-grey">Çırpılmış yumurta, qovrulmuş qırmızı bibər və sarımsaq, yaşıl soğan ilə 7,50 azn</p><br>
+    
+      <h5>Blueberry Pancakes</h5>
+      <p class="w3-text-grey">Şərbət, yağ və çoxlu giləmeyvə ilə 8.50 azn</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Kofe</h5>
+      <p class="w3-text-grey">Adi qəhvə 2.50 azn</p><br>
+    
+      <h5>Şokolad</h5>
+      <p class="w3-text-grey">Südlü şokoladlı espresso 4.50 azn</p><br>
+    
+      <h5>Korretto</h5>
+      <p class="w3-text-grey">Viski və qəhvə 5.00 azn</p><br>
+    
+      <h5>Buzlu çay</h5>
+      <p class="w3-text-grey">İsti çay istisna olmaqla, isti 3.00 azn</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Kola, Sprite, Fanta və s. 2.50 azn</p>
+    </div>  
+    <img src="coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Bizim Mekanimiz</span></h5>
+    <p>Bizi hansısa yerdə hansısa ünvanda tapın.</p>
+    <img src="map.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span>Böyük və ya kiçik istənilən tədbir üçün tam xidmətli iaşə təklif edirik. Biz sizin ehtiyaclarınızı başa düşürük və yeməkləri həm görünüş, həm də dad kimi ən böyük meyarlara cavab verəcək şəkildə təmin edəcəyik.</p>
+    <p><strong>Ehtiyat</strong> bir masa, bugünkü xüsusi üçün soruşun və ya sadəcə bizə mesaj göndərin:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Adiniz" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Telefon nomreniz" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Ayin tarixi" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mesajiniz" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">MESAJ GÖNDERİN</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Designed By roxtape &copy; 2023</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
 
 </body>
-
 </html>
